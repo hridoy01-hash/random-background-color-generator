@@ -1,5 +1,23 @@
-.button_wrapper{
+
+.color_change_btn_wrapper {
     display: flex;
     align-items: center;
     justify-content: center;
+    height: 880px;
+}
+
+.color_change_btn {
+    padding: 10px 15px;
+    outline: none;
+    border: 1px solid rgba(255,255,255,90%);
+    color: aliceblue;
+    background: transparent;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: 'Poppins',sans-serif;
+    cursor: pointer;
+    transition: all 0.3s ease-out;
+}
+.color_change_btn:hover{
+    box-shadow: 2px 3px rgba(30, 39, 49, 80%);
 }
